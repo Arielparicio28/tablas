@@ -1,0 +1,49 @@
+body{
+    display: flex;
+flex-direction: row;
+}
+
+
+
+table {
+    border-collapse: collapse;
+    margin: 1rem;
+    border: 1px solid rgb(85, 81, 81) ;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+/* 
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+} */
+
+th {
+    background-color: #1d3397;
+    color: white;
+}
+
+.tabla2{
+    background-color: #0ec66d;
+    color: white;
+}
+
+.tabla4{
+    color: white;
+    background-color: rgb(209, 62, 62);
+}
+
+ #ultimaTabla td:nth-child(1){
+    background-color: rgb(209, 62, 62);
+}
+
+#tablaSegunda td:nth-child(2){
+    background-color: #0ec66d;
+}
+
+.fila{
+    background-color: #0ec66d;
+}
